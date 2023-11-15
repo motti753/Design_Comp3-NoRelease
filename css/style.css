@@ -67,6 +67,7 @@ p {
   background: #504333;
   border-radius: 30px;
   color: #fff;
+  display: inline-block;
   height: 2em;
   margin: 0 auto;
   padding: 1% 0 0 0;
@@ -180,9 +181,9 @@ p {
   display: flex;
   flex-direction: row;
   gap: 3em;
-  justify-content: center;
-  margin-top: 3em;
-  padding: 2em 0;
+  justify-content: space-around;
+  margin: 3em auto;
+  padding: 2em 2em;
   text-align: center;
 }
 
